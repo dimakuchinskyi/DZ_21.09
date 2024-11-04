@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{b3a4fb6b-b14e-44b0-a6c4-d459cce3a3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{ad83d7b7-b1d5-492e-8faf-f4fb593540c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{87fb48c4-937c-4969-9da2-d393f4b52f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\reservoir">
+      <UniqueIdentifier>{e1c248df-bf83-41e9-8f6a-38d310fd123e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\provider">
+      <UniqueIdentifier>{f26fb8c7-4b19-4b1f-9b6b-f877a8e0d66e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="reservoir.cpp">
+      <Filter>domain\reservoir</Filter>
+    </ClCompile>
+    <ClCompile Include="provider.cpp">
+      <Filter>domain\provider</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="reservoir.h">
+      <Filter>domain\reservoir</Filter>
+    </ClInclude>
+    <ClInclude Include="provider.h">
+      <Filter>domain\provider</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
